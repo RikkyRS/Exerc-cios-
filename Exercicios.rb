@@ -59,8 +59,8 @@ puts "Digite uma lista de numeros separados por virgulas:"
 lista1_numeros = gets.chomp.split(",")
 puts "Digite uma nova lista de numeros separados por virgulas: "
 lista2_numeros = gets.chomp.split(",")
-lista1 = lista1_numeros.map(&:to_i)
-lista2 = lista2_numeros.map(&:to_i)
+lista1 = lista1_numeros.map(&:to_f)
+lista2 = lista2_numeros.map(&:to_f)
 lista_completa = (lista1 + lista2).uniq
 lista_ordenada = lista_completa.sort
 puts "essa é a lista #{lista_completa}. "
