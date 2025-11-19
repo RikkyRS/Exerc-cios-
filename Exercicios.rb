@@ -4,7 +4,7 @@ numeros = []
 print "Digite cinco número: "
 5.times do |i|
   print "numeros #{i + 1}: "
-  input = gets.chomp.to_i
+  input = gets.chomp.to_f
   numeros << input
 end
 soma_total = numeros.sum
