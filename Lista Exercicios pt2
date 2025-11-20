@@ -1,0 +1,50 @@
+🔹 Parte 2 – Exercícios com Hashes
+
+1 - Cadastro simples de pessoa
+Crie um hash que represente uma pessoa com as chaves:
+
+> :nome, :idade, :cidade
+Preencha com valores informados pelo usuário e depois mostre uma frase como:
+
+> "João tem 25 anos e mora em São Paulo."
+
+2 - Contar letras em uma palavra
+Peça uma palavra ao usuário e use um hash para contar quantas vezes cada letra aparece.
+> Exemplo com “banana”:
+> b: 1
+> a: 3
+> n: 2
+
+3 - Catálogo de produtos
+Crie um hash onde:
+
+> A chave é o nome do produto (string)
+> O valor é o preço (float)
+
+Peça ao usuário para cadastrar 3 produtos.
+Depois:
+
+> Mostre todos os produtos e seus preços
+> Peça um valor máximo e mostre apenas os produtos mais baratos ou iguais a esse valor
+
+4 - Dicionário de traduções
+Crie um hash que mapeia palavras em português para inglês, por exemplo:
+
+> { "cachorro" => "dog", "gato" => "cat", "casa" => "house" }
+
+
+Peça ao usuário uma palavra em português e:
+
+> Se existir no hash, mostre a tradução
+> Se não existir, avise que a palavra não está cadastrada
+
+5 - Contagem de votos
+Simule uma votação para escolher um sabor de sorvete favorito.
+
+> Possíveis sabores: "chocolate", "baunilha", "morango"
+
+Peça vários votos ao usuário (até ele digitar "fim")
+Use um hash para contar quantos votos cada sabor recebeu.
+No final, mostre:
+> Quantos votos cada sabor teve
+> Qual foi o sabor vencedor
